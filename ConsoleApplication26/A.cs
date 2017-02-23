@@ -12,6 +12,12 @@ namespace ConsoleApplication26
             Console.WriteLine("A :: S1");
             V1();
         }
+        protected virtual void V1()
+        {
+            Console.WriteLine("A :: V1");
+            S3();
+        }
+
 
         private void S3()
         {
@@ -24,10 +30,6 @@ namespace ConsoleApplication26
             throw new System.NotImplementedException();
         }
 
-        protected virtual void V1()
-        {
-            Console.WriteLine("A :: V1");
-            S3();
-        }
+        
     }
 }

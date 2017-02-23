@@ -21,7 +21,7 @@ namespace ConsoleApplication26
 
         protected void S3()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("B :: S3");
         }
 
         public virtual void V2()
