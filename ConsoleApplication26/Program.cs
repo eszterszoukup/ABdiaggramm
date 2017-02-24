@@ -10,9 +10,9 @@ namespace ConsoleApplication26
     {
         static void Main(string[] args)
         {
-            C c = new C();
+            D d = new D();
 
-            c.S5();
+            d.S7();
 
 
 

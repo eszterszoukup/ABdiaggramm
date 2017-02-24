@@ -10,7 +10,7 @@ namespace ConsoleApplication26
         public void S7()
         {
             Console.WriteLine("D :: S7");
-            S8();
+            S3();
         }
 
         public void S8()
@@ -19,7 +19,7 @@ namespace ConsoleApplication26
             V2();
         }
 
-       protected virtual void V2()
+       public override void V2()
         {
             Console.WriteLine("D :: V2");
             S7();

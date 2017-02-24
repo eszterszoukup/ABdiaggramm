@@ -18,18 +18,20 @@ namespace ConsoleApplication26
             S3();
         }
 
+        public void S2()
+        {
+            Console.WriteLine("A :: S2");
+            S1();
+        }
+
 
         private void S3()
         {
             Console.WriteLine("A :: S3"); 
-            S1();
+            
         }
 
-        public void S2()
-        {
-            throw new System.NotImplementedException();
-        }
-
+       
         
     }
 }
